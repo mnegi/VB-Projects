@@ -1,0 +1,1 @@
+select distinct driver_id,fname,mname,lname,sex from person,participated,owns where driver_id=d_id and driver_id not in(select dr_id from participated)

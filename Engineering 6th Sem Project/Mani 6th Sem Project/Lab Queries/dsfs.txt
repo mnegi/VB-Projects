@@ -1,0 +1,1 @@
+select dept from course where course_id in(select course from book_adoption,text where book_isbn=isbn and   publisher='Pearson Education') minus select dept from course where course_id not in(select course from book_adoption,text where book_isbn=isbn and   publisher='Pearson Education')

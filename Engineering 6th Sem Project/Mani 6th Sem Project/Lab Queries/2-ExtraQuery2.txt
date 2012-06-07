@@ -1,0 +1,3 @@
+SELECT I.ITEM_ID as ItemNumber, count( O.I_ORDER )
+from	ITEM I, ORDER_ITEM O where	I.ITEM_ID = O.IT having	count( O.I_ORDER ) >1
+group by( I.ITEM_ID )

@@ -1,0 +1,74 @@
+
+Mani 6th sem project
+-------------------------
+
+
+Requirements
+------------
+
+1) Visual Basic 6 is must.
+2) Oracle 8.or any with a user name "System" password "manager" and should have DBA permissions.
+3) Microsoft Excel
+4) Text to speech ( optional )
+
+
+How to run
+-----------
+
+please note down and follow the following steps.
+
+
+1)
+
+Copy the entire foleder " Mani 6th sem project " to your local disk. U can save it to any location & in any drive.
+
+2)
+
+Open the file " General Utility.VBP ".[ either double click it, or open vb and then open it.]
+
+3) 
+
+As soon as project starts it will show some errors, showing " some components not loaded/found". 
+Just click ok everywhere.
+
+4)
+
+a) Now right click on toolBox and select components or goto Project->components or press CTRL+T.
+b) Then select the controls tab and then click on Browse Button.
+c) U will see Open ActiveX Control Dialog Box , Browse to the path where u copied this project and open the folder " OCX Files ". This folder contains the three files, load all three files.
+
+5) 
+
+Now u loaded all OCX files. Don't try to run it now! some more steps u have to go.
+Save the project and exit.
+
+6) 
+
+U need to install some fonts. How to do that ?
+
+Press the [ CTRL+ESC then press R ]  or [ Window + R ] this will open Run Dialog Box. Type "Fonts " in that box and click OK. This will open the System Fonts Folder.
+
+Goto "File" -> "Install New Fonts" it will open "Add Fonts" dialog, browse to the folder where u copied this project.And Open the fonts folder it will list all the fonts inside it.Click on "Select All" button and then "OK" Button. It will show some errors displaying "already exits just click Ok in this case"
+
+
+------------------------------
+that's all u need to run this.
+------------------------------
+
+Now once again run the project. Hopefully this time u won't get any error of that sort.
+
+
+
+
+--------------------------
+
+Good Luck! Try and Enjoy.
+
+Manohar Negi
+
+In Case Something goes wrong.
+Call Me Up or SMS me.
+
+  9448593449
+
+--------------------------

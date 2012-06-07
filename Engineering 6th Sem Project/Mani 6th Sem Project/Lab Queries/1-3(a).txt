@@ -1,0 +1,1 @@
+update participated set damage_amount=25000 where report_num=3 and reg_numb in ( select reg_no from cars where model='Euro1')

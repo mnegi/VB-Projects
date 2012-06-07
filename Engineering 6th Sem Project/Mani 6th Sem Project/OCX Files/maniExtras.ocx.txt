@@ -1,0 +1,43 @@
+
+
+Some of the setting that can be get or set with maniExtras.ocx
+
+
+'ManiExtras1.Copy_File App.Path & "\frmmain.frm", "C:\"
+'ManiExtras1.DesktopIconsHide
+'ManiExtras1.DesktopIconsShow
+'ManiExtras1.Add_HardWare
+'ManiExtras1.Add_Remove
+'ManiExtras1.Cursor_Hide
+'ManiExtras1.Cursor_Show
+'ManiExtras1.Display_Settings
+'ManiExtras1.Drag
+'ManiExtras1.EmptyRecycle
+'ManiExtras1.FileExists
+'ManiExtras1.FindFiles
+'ManiExtras1.FlipMouseButtons
+'ManiExtras1.Internet_Settings
+'ManiExtras1.Keyboard_Settings
+'ManiExtras1.LogOff
+'ManiExtras1.Mouse_Settings
+'ManiExtras1.RecycleFile
+'ManiExtras1.Regional_Settings
+'ManiExtras1.RenameFile
+'ManiExtras1.Restart
+'ManiExtras1.ScreenSaverOff
+'ManiExtras1.ScreenSaverOn
+'ManiExtras1.SecsToMins 100
+'ManiExtras1.SendEmail
+'ManiExtras1.ShowWhatsThis
+'ManiExtras1.ShutDown
+'ManiExtras1.ShutDown_DIALOG
+'ManiExtras1.Sleep_Secs 1
+'ManiExtras1.Sounds_Settings
+'ManiExtras1.System_Settings
+'ManiExtras1.TaskBarHide
+'ManiExtras1.TaskBarShow
+'ManiExtras1.Time (False)
+'ManiExtras1.Time_Date_Settings
+'ManiExtras1.TimeString
+'ManiExtras1.TodaysDate4Digit
+'ManiExtras1.ToggleScreenSaverActive

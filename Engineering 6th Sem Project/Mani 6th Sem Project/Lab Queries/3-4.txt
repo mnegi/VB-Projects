@@ -1,0 +1,1 @@
+select a.course,t.isbn,t.title from text t,book_adoption a,(select c.course_id from course c,book_adoption a,text t where t.isbn=a.book_isbn and c.course_id=a.course and c.dept='C S E' having  count(t.isbn)>=1 group by(c.course_id)) X  where a.course=X.course_id and a.book_isbn=t.isbn order by(t.title)

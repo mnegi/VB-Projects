@@ -1,0 +1,1 @@
+select distinct driver_id,fname,mname,lname,reg_numb,report_num,damage_amount from participated,owns,person where person.driver_id=participated.dr_id and person.driver_id=owns.d_id and participated.reg_numb=owns.reg_num and participated.report_num in (select report_no from accident where acc_date like '%05')

@@ -1,0 +1,10 @@
+DETAILED CONFIGURATION INFORMATION
+------------------------------------------------------------------------------------------------------
+
+PROCESS STARTED AT 23:58:48 ON 29-Oct-2010
+
+OPENING CONNECTION AT 23:58:49
+
+-2147467259ORA-12203: TNS:unable to connect to destination
+
+

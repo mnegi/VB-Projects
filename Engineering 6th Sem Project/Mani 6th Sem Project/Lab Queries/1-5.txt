@@ -1,0 +1,1 @@
+select dr_id,reg_numb,report_num,damage_amount,acc_date,location,model from participated,accident,cars where report_num=report_no and reg_numb=reg_no and reg_numb in(select reg_no from cars where model='Alto LX')

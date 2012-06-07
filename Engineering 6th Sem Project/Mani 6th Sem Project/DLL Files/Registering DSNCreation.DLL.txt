@@ -1,0 +1,49 @@
+
+DSN Creation:
+-------------
+
+This is a simple DSN Creation to MS-Access, Oracle, 
+SQL Server, MySQL Databases using API Calls.
+
+	Zip File Contains the following Files:
+	-------------------------------------
+		1.  DSNCreation.dll
+		2.  DSNCreation.exp
+		3.  DSNCreation.lib
+		4.  ReadMe.txt
+
+Note:	1.  While Creating the DSN For SQL Server, UserID is always the
+-----	    System / Login Name and Password is always empty.
+
+	2.  Use this DLL at your own risk, the author will not be responsible
+	    for any damage to you whatever may be.
+
+
+
+Process for DLL Registration:
+-----------------------------
+	1.  Download the File.
+	2.  Unzip the Zip File.
+	3.  Copy the DSNCreation.dll into your SYSTEM Directory.
+	4.  Register the above DLL using RegSvr32.exe
+
+
+Process for DLL Usage:
+----------------------
+	1.  Open the New VB Project.
+	2.  Select Project -> Refrences -> Select "KP - DSN Creation"
+
+
+Sample Code for Creation of DSN for MS-Access:
+-----------------------------------------------
+Dim clsDSN As New DSNCreation.clsDSNCreation
+Dim blnSuccess As Boolean
+
+Private Sub Form_Click()
+'   For Understanding purpose.
+    blnSuccess = clsDSN.CreateDSNForAccess("TestAccess", "C:\Windows\Desktop\Northwind.mdb", "Admin", "")
+    If blnSuccess Then MsgBox "DSN Created for MS-Access", vbInformation
+End Sub
+
+	
+	
